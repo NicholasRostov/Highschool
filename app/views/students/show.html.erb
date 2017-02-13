@@ -1,0 +1,5 @@
+<p>Here is your student:</p>
+
+<%= @student.first_name %> <%= @student.last_name %>
+
+<%= link_to "Destroy student", "/students/#{@student.id}", method: :delete %>
